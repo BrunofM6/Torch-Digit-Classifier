@@ -36,3 +36,6 @@ To classify the digits, I designed a lightweight convolutional neural network (C
 ## How to run
 The command `python3 reader.py` reads and evaluates a model, either a saved one under `digit_cnn.pth` or, if not found, it runs a new one from scratch and saves it.<br>
 The command `python3 evaluator.py` runs the evaluator file, which has the basis to implement the usage of the saved model, but nothing about data parsing or formatting into the format desired for evaluation.
+
+## Overall
+Great experience, loved to learn about PyTorch's data loading workflow, pre-processing tools, CNN creation and overall about computer vision. Was able to achieve good results at small training times. Learned about NumPy, PyTorch (data loading, pre-processing, defining models, managing devices, training, testing...), IDX format and CNNs. Sucess!
